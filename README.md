@@ -1,6 +1,10 @@
 # Reto: Conversor de divisas
 
-Pasos que ejecuté para dar solución a este reto:
+## Resultado:
+
+![](https://user-images.githubusercontent.com/5360238/135803571-a6f889db-6149-4547-8812-c6fcf72dd411.png)
+
+### Pasos que ejecuté para dar solución a este reto:
 
 * Lectura del enunciado, contemplando las especificaciones dadas.
 * Definir la conversión de las divisas (Dolar, Peso Mexicano, Peso Colombiano, Euro, Libra Esterlina) mediante regla de tres para cada divisa, por lo que los valores son de una respectiva fecha del calendario. 
