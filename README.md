@@ -1,40 +1,19 @@
 # Reto: Conversor de divisas
 
-Usted ha sido contratado por la empresa de Valores & Servicios para desarrollar una aplicación de conversor de divisas de las monedas principales a nivel mundial, 
-algunas de las monedas contempladas para este ejercicio son las siguientes: Dólar, Peso Mexicano, Peso Colombiano, Euro, Libra Esterlina.
-Se tiene contemplado para el desarrollo de la aplicación tener un archivo index.html donde se debe implementar la siguiente plantilla:
+Pasos que ejecuté para dar solución a este reto:
 
-![imagen1](https://res.cloudinary.com/db9wh5uvt/image/upload/c_scale,w_623/v1627491042/Ejercicio_1_ct5net.png)
+* Lectura del enunciado, contemplando las especificaciones dadas.
+* Definir la conversión de las divisas (Dolar, Peso Mexicano, Peso Colombiano, Euro, Libra Esterlina) mediante regla de tres para cada divisa, por lo que los valores son de una respectiva fecha del calendario. 
+* Tener clara la lista de variables a necesitar para la funcionalidad del convertidor.  
+* Se crea la estructura del proyecto del reto:
 
-La empresa necesita validar la información que el usuario suministra para evitar errores a la hora de convertir, para tal fin se debe agregar 
-una alerta que será enviada desde el archivo de JavaScritp, como se observa en la imagen:
+    > Crear la carpeta de la Tarea-01, dentro de ella crear la carpeta **css**,**js**,**img** y el archivo **index.html**
+    > Dentro de la carpeta css se crea la hoja de estilo: style.css donde se va a estilizar los elementos escritos en el documento index.html
+    > En la carpeta js se crea el archivo script.js donde se desarrolla la funcionalidad del formulario y conversión de las divisas. 
+    > En la carpeta img guardo las imagenes a mostrar en el reto, que son el favicon y la representativa del convertidor que es lo primero que se ve en el formulario. 
+    > Cada carpeta y archivo fue creado mediante Git Bash, utilizando los comandos de linux `cd`, `mkdir`, `touch`.
 
-![imagen2](https://res.cloudinary.com/db9wh5uvt/image/upload/c_scale,w_623/v1627493532/Ejercicio_2_yzoyex.png)
-
-Especificaciones del ejercicio:
-1. Se debe contemplar los tipos de monedas y su valor actual.
-2. La información de las monedas a convertir deben estar almacenadas en un arrary
-```html
-var moneda = ['Elige tu Moneda','Dolar','Peso Mexicano','Peso Colombiano','Euro','Libra Esterlina'];
-```
-
-3. Se debe implementar las siguientes funcionalidades en JavaScritp.
-- recorrer array con forEach
-- condicionales
-- función appendChild
-- función createDocumentFragment
-- función createElement
-- función setAttribute
-- función isNaN
-
-
-Para realizar la entrega de esta actividad debe realizar los siguientes pasos:
-
-    1. Crear un Issues llamado Entrega-Modulo-3-Tarea-01-Divisas
-    2. Al Issues adicionar un pantallazo con el enunciado de la tarea
-    3. Luego debes agregar la descripción de los pasos que ejecutaste para dar solución a la tarea y 
-       adjuntar las imágenes de evidencia.  
-    4. Etiquetar al formador a cargo “@JohnFlorez25” el cual revisará su ejercicio y dará las respectivas observaciones  
-  
-
+*  En el archivo html se crea el formulario, vinculando bootstrap y los archivos que estan en las otras carpetas del proyecto. 
+* Se define los id y clases de cada elemento que necesita funcionalidad para llamarlos en el respectivo archivo.
+* Luego se le da estilo al archivo html y finalmente vamos a programar la funcionalidad del conversor de divisas en `JS - JavaScript`.
 
